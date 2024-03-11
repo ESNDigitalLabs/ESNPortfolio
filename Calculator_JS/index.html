@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator project</title>
+    <link rel="stylesheet" href="/Calculator_JS/style.css">
+    <link rel="icon" type="image/x-icon" href="/ESN_Portfolio/assets/favicon.jpg">
+    <h1 style="text-align: center;">Javascript Calculator</h1>
+</head>
+<body>
+<div class="calculator-grid">
+    <div class="output">
+        <div data-previous-operand class="previous-operand"> </div>
+        <div data-current-operand class="current-operand"> </div>
+    </div>
+        <button data-all-clear onclick="clear()">AC</button>        
+        <button data-delete onclick="remove()">DEL</button>
+        <button data-operation onclick="remove()">C</button>
+        <button data-operation onclick="appendToDisplay('&#247;')">&#247;</button>
+        <button data-number onclick="appendToDisplay('7')">7</button>
+        <button data-number onclick="appendToDisplay('8')">8</button>
+        <button data-number onclick="appendToDisplay('9')">9</button>
+        <button data-operation onclick="appendToDisplay('x')">x</button>
+
+        <button data-number onclick="appendToDisplay('4')">4</button>
+        <button data-number onclick="appendToDisplay('5')">5</button>
+        <button data-number onclick="appendToDisplay('6')">6</button>
+        <button data-operation onclick="appendToDisplay('-')">-</button>
+
+        <button data-number onclick="appendToDisplay('1')">1</button>
+        <button data-number onclick="appendToDisplay('2')">2</button>
+        <button data-number onclick="appendToDisplay('3')">3</button>
+        <button data-operation onclick="appendToDisplay('+')">+</button>
+        <button class="span-two" data-number onclick="appendToDisplay('0')">0</button>
+        <button  data-number onclick="appendToDisplay('.')">.</button>
+        <button data-equals onclick="calculate()">&#61;</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <hr>
+    <p style="text-align: center;">Developed by Erica Samba-Ngoie  ~
+    Link to ESN Digital Labs. <a href="https://github.com/ESNDigitalLabs" target="_blank" class="github-link" style="color:#e0218a;">GitHub Repository</a></p>
+</footer>
+</body>
+<script src="/Calculator_JS/script.js"></script>
+</html>

@@ -1,0 +1,284 @@
+*{
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+}
+nav{
+    color: #eddfea;
+    text-decoration-line: none;
+    height: 70px;
+}
+button{ 
+    float: right;
+    display: inline;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 40px;
+    border: 1px;
+    padding: 20px;
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    background-color: #eddfea;
+    font-weight: bolder;
+}
+button a{
+  color: var(--maincolor);
+}
+button:hover{
+    background-color: rgb(78, 57, 80);
+    color: #eddfea;
+    width: 150px;
+    font-weight: bolder;
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+}
+li{
+    color: #eddfea;
+    float: right;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    width: 150px;
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+   text-decoration: none;
+}
+li:hover{
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    background-color: rgb(78, 57, 80);
+    text-decoration-color: #eddfea;
+    color: #eddfea;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+    width: 150px;
+    text-decoration: none;
+}
+body{
+    background-image: url('ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+    background-size: 100%; 
+    color:  #eddfea;
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 20px;
+}
+.s1 { 
+    padding-top: 25px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 20px;
+    height: 300px;
+}
+#skills{
+    text-align: center;
+}
+#projects {
+    display: inline;
+     margin: 0;
+     border-radius: 20px;
+     font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+     font-size: 25px;
+     font-weight: lighter;
+     text-align: center;     
+ }
+#examples>div{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    font-size: 25px;
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    color:  #eddfea;
+    align-content: center;
+    cursor: pointer;
+}
+.s4 { 
+    /* padding-top: 0;
+    padding-left: 100px; */
+    padding: 100px;
+    text-align: justify;
+    font-size: 25px;
+    /* max-width: 1000px; */
+}
+h1{
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 50px;
+    align-content: center; 
+}
+h2{
+    font-size: 35px;
+    text-align: center;  
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    color: black; 
+}
+.columnone{
+    font-weight: lighter;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #eddfea;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px ); 
+}
+.columntwo{
+    font-weight: lighter;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #eddfea;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );  
+}
+.columnthree {
+    font-weight: lighter;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #eddfea;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );    
+}
+.columnone:hover{
+    font-weight: bolder;
+    background-color: black;
+    color: #e2a5d5;
+}
+.columntwo:hover{
+    font-weight: bolder;
+    background-color: black;
+    color: #e2a5d5;
+}
+.columnthree:hover{
+    font-weight: bolder;
+    background-color: black;
+    color: #e2a5d5;
+}
+div a{
+  color: #eddfea;
+  text-decoration: none;
+}
+.slide-in-left{
+    text-align: center;
+    -webkit-animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-left1{
+    -webkit-animation: slide-in-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-left2{
+    -webkit-animation: slide-in-left 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-left3{
+    -webkit-animation: slide-in-left 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-2-28 22:19:41
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+.text-focus-in {
+    font-size: 65px;
+    color: #e2a5d5;
+    text-shadow: 2px 2px 3px #eddfea;
+    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashr954.ttf');
+    -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
+    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-2-28 20:43:16
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    /* Styles for screens less than 600px wide */
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601px and 1024px wide */
+  }
+  @media only screen and (min-width: 1025px) {
+    /* Styles for screens wider than 1025px */
+  }
+  footer{
+    font-size: 18px;
+  }
