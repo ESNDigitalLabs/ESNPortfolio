@@ -1,6 +1,6 @@
 *, *::before, *::after {
     /* font-weight: normal; */
-    font-family: Barbie; src: url('/web-projects/JavascriptCalculator/barbie.ttf');
+    font-family: Barbie; src: url('barbie.ttf');
     box-sizing: border-box;
 }
 body{
@@ -84,7 +84,7 @@ body{
 footer {
     display:flex;
     flex-direction: column;
-    font-family: Barbie; src: url('/web-projects/JavascriptCalculator/barbie.ttf');
+    font-family: Barbie; src: url('barbie.ttf');
     font-size: normal;
     color: #e2dcdc;
 
