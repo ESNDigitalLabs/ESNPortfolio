@@ -16,7 +16,7 @@
       border-radius: 40px;
       border: 1px;
       padding: 20px;
-      font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+      font-family:  Fashionism; src: url('assets/fashl954.ttf');
       background-color: #eddfea;
       font-weight: bolder;
      
@@ -29,7 +29,7 @@
       color: #eddfea;
       border-radius: 40px;
       font-weight: bolder;
-      font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+      font-family:  Fashionism; src: url('assets/fashl954.ttf');
   }
   li{
       color: #eddfea;
@@ -38,17 +38,17 @@
       padding: 20px;
       font-size: 20px;
       width: 150px;
-      font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+      font-family:  Fashionism; src: url('assets/fashl954.ttf');
       font-weight: bolder;
   }
   li:hover{
-      font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+      font-family:  Fashionism; src: url('assets/fashl954.ttf');
       background-color: rgb(78, 57, 80);
       color: #eddfea;
   }
   body{
-      font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
-      background-image: url("ESN_Portfolio/assets/IMG_ESN.JPG");
+      font-family:  Fashionism; src: url('assets/fashl954.ttf');
+      background-image: url("assets/IMG_ESN.JPG");
       background-size: 100%;
       height: 570px;
       text-decoration: none;
@@ -61,7 +61,7 @@
   button.access{
       display: inline-block;
       float: left;
-      font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+      font-family:  Fashionism; src: url('assets/fashl954.ttf');
       font-size: 20px;
       width: 150px;
       border-radius: 40px;
@@ -176,7 +176,7 @@
       }
     }
     #form{
-      background-image: url('ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+      background-image: url('assets/shutterstock_1121814242.jpg');
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
       backdrop-filter: blur( 7px );
       -webkit-backdrop-filter: blur( 7px );
@@ -187,7 +187,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust this according to your layout */
+    height: 100vh; 
   
   }
   @media only screen and (max-width: 600px) {
