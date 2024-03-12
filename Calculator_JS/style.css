@@ -9,7 +9,7 @@ body{
     align-content: center;
     align-items: center;
     height: 100%;
-    background-image: url('/ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+    background-image: url('assets/shutterstock_1121814242.jpg');
     background-size: 100%; 
     backdrop-filter: blur( 3px );
     -webkit-backdrop-filter: blur( 3px );
