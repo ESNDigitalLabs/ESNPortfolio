@@ -1,3 +1,6 @@
+root{
+    --maincolor: black;
+  }
 *{
     font-family:  Fashionism; src: url('assets/fashl954.ttf');
 }
