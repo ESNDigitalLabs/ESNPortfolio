@@ -1,5 +1,5 @@
 *{
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
 }
 nav{
     color: #eddfea;
@@ -14,7 +14,7 @@ button{
     border-radius: 40px;
     border: 1px;
     padding: 20px;
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
     background-color: #eddfea;
     font-weight: bolder;
 }
@@ -26,7 +26,7 @@ button:hover{
     color: #eddfea;
     width: 150px;
     font-weight: bolder;
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
 }
 li{
     color: #eddfea;
@@ -37,11 +37,11 @@ li{
     text-align: center;
     border-radius: 40px;
     width: 150px;
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
    text-decoration: none;
 }
 li:hover{
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
     background-color: rgb(78, 57, 80);
     text-decoration-color: #eddfea;
     color: #eddfea;
@@ -52,7 +52,7 @@ li:hover{
     text-decoration: none;
 }
 body{
-    background-image: url('ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+    background-image: url('assets/shutterstock_1121814242.jpg');
     background-size: 100%; 
     color:  #eddfea;
     backdrop-filter: blur( 6.5px );
@@ -63,7 +63,7 @@ body{
     padding-top: 25px;
     padding-bottom: 70px;
     text-align: center;
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
     font-size: 20px;
     height: 300px;
 }
@@ -74,7 +74,7 @@ body{
     display: inline;
      margin: 0;
      border-radius: 20px;
-     font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+     font-family:  Fashionism; src: url('assets/fashl954.ttf');
      font-size: 25px;
      font-weight: lighter;
      text-align: center;     
@@ -85,7 +85,7 @@ body{
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     font-size: 25px;
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
     color:  #eddfea;
     align-content: center;
     cursor: pointer;
@@ -99,7 +99,7 @@ body{
     /* max-width: 1000px; */
 }
 h1{
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
+    font-family:  Fashionism; src: url('assets/fashl954.ttf');
     font-size: 50px;
     align-content: center; 
 }
@@ -230,7 +230,7 @@ div a{
     font-size: 65px;
     color: #e2a5d5;
     text-shadow: 2px 2px 3px #eddfea;
-    font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashr954.ttf');
+    font-family:  Fashionism; src: url('assets/fashr954.ttf');
     -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
     animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
 }
