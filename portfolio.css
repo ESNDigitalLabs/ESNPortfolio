@@ -1,9 +1,9 @@
-root{
-    --maincolor: black;
-  }
 *{
     font-family:  Fashionism; src: url('assets/fashl954.ttf');
 }
+root{
+    --maincolor: black;
+  }
 nav{
     color: #eddfea;
     text-decoration-line: none;
