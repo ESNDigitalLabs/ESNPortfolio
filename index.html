@@ -22,6 +22,12 @@
             <li><a href="https://github.com/ESNDigitalLabs" style="color:#eddfea ;">GitHub</li></a>
         </ul>
     </div>
+	<button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+</button>
+
 </nav>
 <body>
     <section class="main"> 
@@ -38,5 +44,18 @@
         </div>
         </div>
     </section>    
+	<script>
+  const toggleButton = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('nav ul');
+
+  toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+
+    // Update aria-expanded for accessibility
+    const expanded = toggleButton.getAttribute('aria-expanded') === 'true';
+    toggleButton.setAttribute('aria-expanded', !expanded);
+  });
+</script>
+
 </body>
 </html>
