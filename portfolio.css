@@ -1,325 +1,295 @@
-*{
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
+/* === Original Styles Preserved === */
+* {
+  font-family: Fashionism;
+  src: url('assets/fashl954.ttf');
 }
-root{
-    --maincolor: black;
-  }
-nav{
-    color: #eddfea;
-    text-decoration-line: none;
-    height: 70px;
+:root {
+  --maincolor: black;
 }
-button{ 
-    float: right;
-    display: inline;
-    font-size: 20px;
-    width: 150px;
-    border-radius: 40px;
-    border: 1px;
-    padding: 20px;
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
-    background-color: #eddfea;
-    font-weight: bolder;
+
+/* === Layout and Typography === */
+body {
+  background-image: url('assets/shutterstock_1121814242.jpg');
+  background-size: 100%;
+  color: #eddfea;
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
 }
-button a{
+
+nav {
+  color: #eddfea;
+  text-decoration-line: none;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1000;
+}
+
+button {
+  float: right;
+  display: inline;
+  font-size: 20px;
+  width: 150px;
+  border-radius: 40px;
+  border: 1px;
+  padding: 20px;
+  font-family: Fashionism;
+  background-color: #eddfea;
+  font-weight: bolder;
+}
+
+button a {
   color: var(--maincolor);
+  text-decoration: none;
 }
-button:hover{
-    background-color: rgb(78, 57, 80);
-    color: #eddfea;
-    width: 150px;
-    font-weight: bolder;
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
+
+button:hover {
+  background-color: rgb(78, 57, 80);
+  color: #eddfea;
+  font-weight: bolder;
 }
-li{
-    color: #eddfea;
-    float: right;
-    display: inline;
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 40px;
-    width: 150px;
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
-   text-decoration: none;
+
+li {
+  color: #eddfea;
+  float: right;
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 40px;
+  width: 150px;
+  font-family: Fashionism;
+  text-decoration: none;
 }
-li:hover{
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
-    background-color: rgb(78, 57, 80);
-    text-decoration-color: #eddfea;
-    color: #eddfea;
-    text-align: center;
-    padding: 20px;
-    border-radius: 40px;
-    width: 150px;
-    text-decoration: none;
+
+li:hover {
+  background-color: rgb(78, 57, 80);
+  color: #eddfea;
+  padding: 20px;
+  text-decoration: none;
 }
-body{
-    background-image: url('assets/shutterstock_1121814242.jpg');
-    background-size: 100%; 
-    color:  #eddfea;
-    backdrop-filter: blur( 6.5px );
-    -webkit-backdrop-filter: blur( 6.5px );
-    border-radius: 20px;
+
+/* === Section Layouts === */
+.s1 {
+  padding: 25px 0 70px;
+  text-align: center;
+  font-family: Fashionism;
+  font-size: 20px;
+  height: 300px;
 }
-.s1 { 
-    padding-top: 25px;
-    padding-bottom: 70px;
-    text-align: center;
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
-    font-size: 20px;
-    height: 300px;
+
+#skills {
+  text-align: center;
 }
-#skills{
-    text-align: center;
-}
+
 #projects {
-    display: inline;
-     margin: 0;
-     border-radius: 20px;
-     font-family:  Fashionism; src: url('assets/fashl954.ttf');
-     font-size: 25px;
-     font-weight: lighter;
-     text-align: center;     
- }
-#examples>div{
-    justify-content: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    font-size: 25px;
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
-    color:  #eddfea;
-    align-content: center;
-    cursor: pointer;
+  display: inline;
+  margin: 0;
+  border-radius: 20px;
+  font-family: Fashionism;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
 }
-.s4 { 
-    /* padding-top: 0;
-    padding-left: 100px; */
-    padding: 100px;
-    text-align: justify;
-    font-size: 25px;
-    /* max-width: 1000px; */
+
+#examples > div {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  font-size: 25px;
+  font-family: Fashionism;
+  color: #eddfea;
+  align-content: center;
+  cursor: pointer;
+  padding: 0 10px;
 }
-h1{
-    font-family:  Fashionism; src: url('assets/fashl954.ttf');
-    font-size: 50px;
-    align-content: center; 
+
+.s4 {
+  padding: 100px 20px;
+  text-align: justify;
+  font-size: 25px;
 }
-h2{
-    font-size: 35px;
-    text-align: center;  
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.content{
-    display: flex;
-    flex-direction: row;
-    color: black; 
-}
-.columnone{
-    font-weight: lighter;
-    font-size: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px;
-    color: #eddfea;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 16.5px );
-    -webkit-backdrop-filter: blur( 16.5px ); 
-}
-.columntwo{
-    font-weight: lighter;
-    font-size: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px;
-    color: #eddfea;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 16.5px );
-    -webkit-backdrop-filter: blur( 16.5px );  
-}
+
+.columnone,
+.columntwo,
 .columnthree {
-    font-weight: lighter;
-    font-size: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px;
-    color: #eddfea;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 16.5px );
-    -webkit-backdrop-filter: blur( 16.5px );    
+  font-weight: lighter;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px;
+  color: #eddfea;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  flex: 1 1 300px;
+  margin: 10px;
 }
-.columnone:hover{
-    font-weight: bolder;
-    background-color: black;
-    color: #e2a5d5;
+
+.columnone:hover,
+.columntwo:hover,
+.columnthree:hover {
+  font-weight: bolder;
+  background-color: black;
+  color: #e2a5d5;
 }
-.columntwo:hover{
-    font-weight: bolder;
-    background-color: black;
-    color: #e2a5d5;
-}
-.columnthree:hover{
-    font-weight: bolder;
-    background-color: black;
-    color: #e2a5d5;
-}
-div a{
+
+div a {
   color: #eddfea;
   text-decoration: none;
 }
-.slide-in-left{
-    text-align: center;
-    -webkit-animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.slide-in-left1{
-    -webkit-animation: slide-in-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.slide-in-left2{
-    -webkit-animation: slide-in-left 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.slide-in-left3{
-    -webkit-animation: slide-in-left 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-/* ----------------------------------------------
- * Generated by Animista on 2024-2-28 22:19:41
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
 
-/**
- * ----------------------------------------
- * animation slide-in-left
- * ----------------------------------------
- */
- @-webkit-keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
+/* === Animations === */
+.slide-in-left,
+.slide-in-left1,
+.slide-in-left2,
+.slide-in-left3 {
+  text-align: center;
+  animation: slide-in-left 3s ease forwards;
+}
+.slide-in-left1 { animation-delay: 2s; }
+.slide-in-left2 { animation-delay: 3s; }
+.slide-in-left3 { animation-delay: 4s; }
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
   }
-  @keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
   }
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .text-focus-in {
-    font-size: 65px;
-    color: #e2a5d5;
-    text-shadow: 2px 2px 3px #eddfea;
-    font-family:  Fashionism; src: url('assets/fashr954.ttf');
-    -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
-    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
+  font-size: 65px;
+  color: #e2a5d5;
+  text-shadow: 2px 2px 3px #eddfea;
+  font-family: Fashionism;
+  animation: text-focus-in 4s ease 5s both;
 }
-/* ----------------------------------------------
- * Generated by Animista on 2024-2-28 20:43:16
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
 
-/**
- * ----------------------------------------
- * animation text-focus-in
- * ----------------------------------------
- */
- @-webkit-keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
   }
-  @keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
   }
-iframe img{
-          width:200px;
-      }
-  @media only screen and (max-width: 600px) {
-    /* Styles for screens less than 600px wide */
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
   }
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Styles for screens between 601px and 1024px wide */
+  100% {
+    filter: blur(0px);
+    opacity: 1;
   }
-  @media only screen and (min-width: 1025px) {
-    /* Styles for screens wider than 1025px */
+}
+
+/* === Responsive Enhancements === */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #1a0f23;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 999;
   }
-/* iPhone 4 and 4s */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* Your styles here */
-}
 
-/* iPhone 5, 5s, 5c, SE */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Your styles here */
-}
-
-/* iPhone 6, 6s, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Your styles here */
-}
-
-/* iPhone 6 Plus, 6s Plus, 7 Plus, 8 Plus */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  /* Your styles here */
-}
-
-/* iPhone X, XS, 11 Pro */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  /* Your styles here */
-}
-
-/* iPhone XR, 11 */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Your styles here */
-}
-
-/* iPhone XS Max, 11 Pro Max */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
-  /* Your styles here */
-}
-
-  footer{
-    font-size: 18px;
+  nav.active ul {
+    display: flex;
   }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #eddfea;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .s4 {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* === Footer Consistency === */
+footer {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  color: #eddfea;
+}
+
+/* === Additions for cross-device support === */
+iframe img {
+  width: 200px;
+}
+
+/* Responsive grid spacing */
+#examples > div {
+  padding: 20px;
+}
